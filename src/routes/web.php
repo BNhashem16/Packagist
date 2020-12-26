@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['namespace' => 'Hashem\Contact\Http\Controllers'], function () {
+Route::group(['namespace' => 'Hashemy\Contact\Http\Controllers'], function () {
     Route::get('contact', 'ContactController@create')->name('contact');
     Route::post('contact', 'ContactController@store');
 });

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hashem\Contact\Http\Controllers;
+namespace Hashemy\Contact\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Hashem\Contact\Mail\ContactMailable;
-use Hashem\Contact\Models\Contact;
+use Hashemy\Contact\Mail\ContactMailable;
+use Hashemy\Contact\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 

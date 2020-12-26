@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hashem\\Contact": "src/"
+            "Hashemy\\Contact": "src/"
         },
         "classmap": [
             "database/seeds",
