@@ -38,7 +38,7 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->message));
+        // Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->message));
         Contact::create($request->all());
         return redirect()->back();
     }
