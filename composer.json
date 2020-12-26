@@ -8,9 +8,7 @@
         "email": "a.hashem@thetailorsdev.com"
     }],
     "minimum-stability": "dev",
-    "require": {
-        "php": "^7.2.5"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Hashemy\\Contact\\": "src/"
