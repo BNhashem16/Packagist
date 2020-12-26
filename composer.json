@@ -13,12 +13,5 @@
         "psr-4": {
             "Hashemy\\Contact\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Hashemy\\Contact\\ContactServiceProvider"
-            ]
-        }
     }
 }
