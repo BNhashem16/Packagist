@@ -12,10 +12,6 @@
     "autoload": {
         "psr-4": {
             "Hashemy\\Contact\\": "src/"
-        },
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ]
+        }
     }
 }
