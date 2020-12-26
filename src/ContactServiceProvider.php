@@ -31,5 +31,6 @@ class ContactServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->mergeConfigFrom(__DIR__.'/config/contact.php', 'contact');
         $this->publishes([__DIR__.'/config/contact.php' => config_path('contact.php'),]);
+        $this->publishes([__DIR__.'/database/migrations/2020_12_25_232142_create_contacts_table.php' => config_path('020_12_25_232142_create_contacts_table.php'),]);
     }
 }
