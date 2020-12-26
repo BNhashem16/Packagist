@@ -2,6 +2,7 @@
     "name": "hashem/contact",
     "description": "This will send Email",
     "type": "library",
+    "license": "MIT",
     "authors": [{
         "name": "Ahmed Hashem",
         "email": "a.hashem@thetailorsdev.com"
