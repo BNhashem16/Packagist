@@ -1,6 +1,6 @@
 <?php
 
-namespace Hashem\Contact;
+namespace Hashemy\Contact;
 
 use Illuminate\Support\Facades\Route;
 
