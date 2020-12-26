@@ -1,0 +1,20 @@
+{
+    "name": "hashem/contact",
+    "description": "This will send Email",
+    "type": "library",
+    "authors": [{
+        "name": "Ahmed Hashem",
+        "email": "a.hashem@thetailorsdev.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hashem\\Contact": "src/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    }
+}
